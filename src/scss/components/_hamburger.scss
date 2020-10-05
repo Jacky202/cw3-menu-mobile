@@ -1,0 +1,19 @@
+.hamburger {
+  cursor: pointer;
+  .material-icons {
+    font-size: 2rem;
+    color: var(--color-text-primary);
+  }
+  .icon-close {
+    display: none;
+  }
+
+  &.open {
+    .icon-close {
+      display: block;
+    }
+    .icon-open {
+      display: none;
+    }
+  }
+}
